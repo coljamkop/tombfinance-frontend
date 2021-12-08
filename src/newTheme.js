@@ -8,19 +8,19 @@ const newTheme = createMuiTheme({
       primary: '#FFF',
     },
     background: {
-      default: '#121212',
+      default: '#ededf2',
       paper: 'rgba(255, 255, 255, 0.9)',
     },
     primary: {
-      light: '#757ce8',
-      main: '#571eb1',
-      dark: '#2c2560',
+      light: '#4d6ac5',
+      main: '#0e3ea5',
+      dark: '#002285',
       contrastText: '#000',
     },
     secondary: {
-      light: '#ff7961',
-      main: '#f44336',
-      dark: '#ba000d',
+      light: '#ffdd4c',
+      main: '#ddb11c',
+      dark: '#a5750e',
       contrastText: '#000',
     },
     action: {
@@ -31,7 +31,7 @@ const newTheme = createMuiTheme({
   },
   typography: {
     color: '#2c2560',
-    fontFamily: ['"Poppins"', 'sans-serif'].join(','),
+    fontFamily: ['"Gotham"', 'sans-serif'].join(','),
   },
 });
 

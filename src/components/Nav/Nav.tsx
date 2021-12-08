@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
   },
   toolbarTitle: {
-    fontFamily: '"Amarante", cursive',
+    fontFamily: '"Gotham", sans-serif',
     fontSize: '30px',
     flexGrow: 1,
   },
@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
   },
   brandLink: {
     textDecoration: 'none',
-    color: '#e0e3bd',
+    color: '#ededf2',
     '&:hover': {
       textDecoration: 'none',
     },
@@ -97,7 +97,7 @@ const Nav = () => {
             <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
               {/* <a className={ classes.brandLink } href="/">Tomb Finance</a> */}
               <Link to="/" color="inherit" className={classes.brandLink}>
-                Tomb Finance
+                Galactic Finance
               </Link>
             </Typography>
             <Box mr={5}>
@@ -105,13 +105,13 @@ const Nav = () => {
                 Home
               </Link>
               <Link color="textPrimary" to="/cemetery" className={classes.link}>
-                Cemetery
+                Black Hole
               </Link>
               <Link color="textPrimary" to="/masonry" className={classes.link}>
-                Masonry
+                Starfield
               </Link>
               <Link color="textPrimary" to="/pit" className={classes.link}>
-                Pit
+                Deep Space
               </Link>
               <Link color="textPrimary" to="/sbs" className={classes.link}>
                 SBS
@@ -162,9 +162,9 @@ const Nav = () => {
               <Divider />
               <List>
                 <ListItemLink primary="Home" to="/" />
-                <ListItemLink primary="Cemetery" to="/cemetery" />
-                <ListItemLink primary="Masonry" to="/masonry" />
-                <ListItemLink primary="Pit" to="/pit" />
+                <ListItemLink primary="Black Hole" to="/cemetery" />
+                <ListItemLink primary="Starfield" to="/masonry" />
+                <ListItemLink primary="Deep Space" to="/pit" />
                 <ListItemLink primary="SBS" to="/sbs" />
                 <ListItemLink primary="Liquidity" to="/liquidity" />
                 <ListItemLink primary="Regulations" to="/regulations" />
